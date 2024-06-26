@@ -1,5 +1,4 @@
 {
-  "private": true,
   "displayName": "Bravia",
   "name": "homebridge-sony-bravia-audio-toggle",
   "version": "1.0.0",
