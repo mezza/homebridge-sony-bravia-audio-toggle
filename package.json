@@ -1,17 +1,17 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "Bravia",
+  "name": "homebridge-sony-bravia-audio-toggle",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Simple Homebridge plugin to allow easy toggling of audio output for Sony Bravia TVs",
   "license": "Apache-2.0",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git+https://github.com/mezza/homebridge-sony-bravia-audio-toggle.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/mezza/homebridge-sony-bravia-audio-toggle/issues"
   },
   "engines": {
     "node": "^18.17.0 || ^20.9.0",

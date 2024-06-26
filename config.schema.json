@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "SonyBraviaPlugin",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -9,7 +9,46 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "Sony Bravia Audio Toggler Platform"
+      },
+      "tvs": {
+        "type": "array",
+        "items": {
+          "title": "TVs",
+          "type": "object",
+          "properties": {
+            "name": {
+              "title": "Name",
+              "type": "string",
+              "required": true,
+              "default": "TV"
+            },
+            "ipaddress": {
+              "title": "IP Address",
+              "type": "string",
+              "required": true,
+              "default": "AAA.BBB.CCC.DDD"
+            },
+            "psk": {
+              "title": "Private Shared Key (PSK)",
+              "type": "string",
+              "required": true,
+              "default": "PSK"
+            },
+            "tvOutput": {
+              "title": "Default TV audio output value",
+              "type": "string",
+              "required": true, 
+              "default": "speaker"
+            },
+            "audioSystemOutput": {
+              "title": "Desired audio system output value",
+              "type": "string",
+              "required": true, 
+              "default": "audioSystem"
+            }
+          }
+        }
       }
     }
   }
