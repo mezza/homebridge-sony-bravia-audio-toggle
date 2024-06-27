@@ -1,5 +1,5 @@
 {
-  "displayName": "Bravia",
+  "displayName": "Bravia Audio Toggle",
   "name": "homebridge-sony-bravia-audio-toggle",
   "version": "1.0.0",
   "description": "Simple Homebridge plugin to allow easy toggling of audio output for Sony Bravia TVs",
@@ -36,5 +36,7 @@
     "rimraf": "^5.0.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
-  }
+  },
+  "author": "Mezza",
+  "homepage": "https://github.com/mezza/homebridge-sony-bravia-audio-toggle/blob/latest/README.md"
 }
